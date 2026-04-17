@@ -1,0 +1,54 @@
+# Richard Xiong
+
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Mm]emoryCaptures/
+/[Uu]serSettings/
+
+!/[Aa]ssets/**/*.meta
+
+# Uncomment this line to ignore the asset store tools plugin
+# /[Aa]ssets/AssetStoreTools*
+
+# TextMesh Pro files
+[Aa]ssets/TextMesh*Pro/
+
+# Editor stuff
+[Aa]ssets/Plugins/Editor/JetBrains*
+.vs/
+.vsconfig
+
+.gradle/
+
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+sysinfo.txt
+
+*.apk
+*.unitypackage
+
+crashlytics-build.properties
+
