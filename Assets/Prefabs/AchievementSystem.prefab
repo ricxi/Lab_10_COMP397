@@ -45,4 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AchievementSystem
   voidChannel: {fileID: 11400000, guid: 7e210a45d0f00f44ab7f952cc82b9fbf, type: 2}
+  floatChannel: {fileID: 11400000, guid: da9f93cde366e1d469c1200f6d654e79, type: 2}
   gameDataChannel: {fileID: 11400000, guid: cafeddb07daa00344a52b483cec35e53, type: 2}
+  achievementJumps: 10
+  achievementShots: 5

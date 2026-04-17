@@ -29,5 +29,7 @@ public class PlayerShooter : MonoBehaviour
         bullet.transform.SetPositionAndRotation(projectileSpawn.position, projectileSpawn.rotation);
         bullet.gameObject.SetActive(true);
         bullet.GetComponent<Rigidbody>().AddForce(bullet.transform.forward * projectileForce, ForceMode.Impulse);
+
+        EventChannelManager.Instance.floatEvent.RaiseEvent(0.0f);
     }
 }
